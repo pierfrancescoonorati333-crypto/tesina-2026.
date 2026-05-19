@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krisis — Tesina</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <div class="cinematic-intro">
+        <h1>KRISIS</h1>
+        <p>Il punto di rottura che rigenera il mondo</p>
+    </div>
+
+    <audio id="hoverSound" preload="auto">
+        <source src="./assets/hover.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="particles">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">✦</div>
+            <h1>Krisis</h1>
+            <p>Preparazione esperienza...</p>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="floating-orb orb1"></div>
+        <div class="floating-orb orb2"></div>
+
+        <p class="mini-text">TESINA MULTIDISCIPLINARE</p>
+        <h1>Krisis</h1>
+        <h2>Il punto di rottura che rigenera il mondo</h2>
+        <p class="description">
+            Un percorso interdisciplinare che esplora la crisi come momento di trasformazione, evoluzione e rinascita.
+        </p>
+
+        <div class="main-actions">
+            <div class="dropdown">
+                <button class="glass-btn">⬡ Materie</button>
+                <div class="dropdown-content">
+                    <!-- Funzione JS per avvisare se il file manca -->
+                    <script>function avviso() { alert('Argomento in fase di completamento!'); }</script>
+                    
+                    <a href="tesina-sito/pdf/introduzione.pdf" target="_blank"><span>Introduzione</span></a>
+                    <a href="#" onclick="avviso()"><span>Italiano (In arrivo)</span></a>
+                    <a href="tesina-sito/pdf/storia.pdf" target="_blank"><span>Storia</span></a>
+                    <a href="#" onclick="avviso()"><span>Geografia (In arrivo)</span></a>
+                    <a href="#" onclick="avviso()"><span>Educazione Civica (In arrivo)</span></a>
+                    <a href="tesina-sito/pdf/scienze.pdf" target="_blank"><span>Scienze</span></a>
+                    <a href="#" onclick="avviso()"><span>Tecnologia (In arrivo)</span></a>
+                    <a href="#" onclick="avviso()"><span>Inglese (In arrivo)</span></a>
+                    <a href="#" onclick="avviso()"><span>Spagnolo (In arrivo)</span></a>
+                    <a href="#" onclick="avviso()"><span>Arte (In arrivo)</span></a>
+                    <a href="#" onclick="avviso()"><span>Musica (In arrivo)</span></a>
+                    <a href="tesina-sito/pdf/motoria.pdf" target="_blank"><span>Scienze Motorie</span></a>
+                </div>
+            </div>
+
+            <a href="tesina-sito/assets/presentazione.pptx" class="glass-btn" target="_blank">◇ PowerPoint</a>
+            <a href="tesina-sito/assets/mappa.pdf" class="glass-btn" target="_blank">◎ Mappa Concettuale</a>
+        </div>
+        
+        <!-- ... (resto del contenuto invariato) -->
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
